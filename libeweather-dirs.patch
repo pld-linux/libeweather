@@ -1,0 +1,22 @@
+--- libeweather/data/default/images/Makefile.am.orig	2013-12-17 21:13:57.000000000 +0100
++++ libeweather/data/default/images/Makefile.am	2013-12-18 19:41:59.492734558 +0100
+@@ -1,7 +1,7 @@
+ MAINTAINERCLEANFILES = Makefile.in
+ 
+ # data files for the module
+-filesdir = $(datadir)/default/images
++filesdir = $(pkgdatadir)/default/images
+ 
+ files_DATA = $(wildcard *.png)
+ 
+--- libeweather/data/simple/images/Makefile.am.orig	2013-12-17 21:13:57.000000000 +0100
++++ libeweather/data/simple/images/Makefile.am	2013-12-18 19:43:06.089398428 +0100
+@@ -1,7 +1,7 @@
+ MAINTAINERCLEANFILES = Makefile.in
+ 
+ # data files for the module
+-filesdir = $(datadir)/simple/images
++filesdir = $(pkgdatadir)/simple/images
+ 
+ files_DATA = $(wildcard *.png)
+ 
