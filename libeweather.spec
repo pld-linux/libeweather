@@ -7,7 +7,7 @@ Summary(pl.UTF-8):	Biblioteka informacji pogodowych dla środowiska Enlightenmen
 Name:		libeweather
 Version:	0.2.0
 %define	snap	20130810
-Release:	0.%{snap}.1
+Release:	0.%{snap}.2
 License:	LGPL v2.1
 Group:		Libraries
 # git clone http://git.enlightenment.org/libs/libeweather.git
